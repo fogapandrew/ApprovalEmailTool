@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="warning">You have selected 'Cascade (consultancy panel)' as your sourcing type. This means that
+                this contract is awarded applying the cascade mechanism established under the Consultancy Panel. If this
+                is not the case, please return to the sourcing type selection screen to select a different sourcing
+                type!</p>
+            <div class="buttons">       
+                <div class="buttons">
+                    <a href="index.html" class="button-link">PREPARE TABLE</a>
+                    <a href="index.html" class="button-link">RETURN TO SOURCING TYPE</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <label for="authorised-signatories">Authorised Signatories:</label>
+            <input type="text" id="authorised-signatories">
+        </div>
+
+        <div class="form-section">
+            <label for="internal-approvers">Internal approvers:</label>
+            <input type="text" id="internal-approvers">
+            <a href="#">?</a>
+        </div>
+
+        <div class="form-section">
+            <label for="supplier">Supplier:</label>
+            <input type="text" id="supplier">
+            <a href="#">?</a>
+        </div>
+
+        <div class="form-section">
+            <label for="contract-description">Contract description:</label>
+            <input type="text" id="contract-description">
+        </div>
+
+        <div class="form-section">
+            <label for="executive-summary">Executive Summary:</label>
+            <textarea id="executive-summary"></textarea>
+        </div>
+
+        <div class="form-section">
+            <label for="contract-term">Contract term:</label>
+            <input type="text" id="contract-term">
+            <div class="date-range">
+                <input type="text" placeholder="From">
+                <input type="text" placeholder="Till">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label for="comments-contract-term">Comments re. Contract term:</label>
+            <textarea id="comments-contract-term"></textarea>
+        </div>
+
+        <div class="form-section">
+            <label for="year-2024">2024</label>
+            <input type="text" id="year-2024">
+            <a href="#">?</a>
+        </div>
+
+        <!-- Repeat similar blocks for other years -->
+
+        <div class="form-section">
+            <label for="signature-pages">Signature page(s):</label>
+            <input type="text" id="signature-pages">
+        </div>
+
+        <div class="form-section">
+            <label for="contract-value">Contract Value:</label>
+            <input type="text" id="contract-value">
+            <a href="#">?</a>
+        </div>
+
+        <div class="form-section">
+            <label for="contract-currency">Contract Currency:</label>
+            <input type="text" id="contract-currency">
+        </div>
+
+        <div class="form-section">
+            <label for="comments-contract-value">Comments re. Contract Value:</label>
+            <textarea id="comments-contract-value"></textarea>
+        </div>
+
+        <div class="form-section">
+            <label for="fee-type">Fee type:</label>
+            <input type="text" id="fee-type">
+        </div>
+
+        <div class="form-section">
+            <label for="sourcing-type">Sourcing type:</label>
+            <input type="text" id="sourcing-type" value="Cascade (consultancy panel)">
+        </div>
+
+        <div class="form-section">
+            <label for="gl-account">GL Account:</label>
+            <input type="text" id="gl-account">
+        </div>
+
+        <div class="form-section">
+            <label for="project-code">Project Code:</label>
+            <input type="text" id="project-code">
+        </div>
+
+        <div class="form-section">
+            <label for="budget-split">YEAR</label>
+            <label for="budget-split">FORCASTED BUDGET SPLIT</label>
+        </div>
+    </div>
+</body>
+
+</html>
